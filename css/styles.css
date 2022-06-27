@@ -7,17 +7,24 @@
 /* second background color Gray #F5F4FA */
 /* dark color sections footer and midle place #2F303A */
 
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+}
 body {
 background-color: #fff;
-color: #757575;
+color: var(--primary-text-color);
 }
  
 .list {
     list-style: none;
 }
 /* site nav */
+
+/* logo */
 .logo_web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo_studio {
@@ -25,22 +32,22 @@ color: #757575;
 }
 
 .full_logo :focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site_nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .site_nav .link:hover,
 .site_nav .link:focus {
-   color:#2196F3 ;
+   color: var(--accent-color) ;
 }
 .auth_nav {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .auth_nav .link:hover,
 .auth_nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* main */
@@ -60,10 +67,10 @@ color: #2196F3
 }
 
 .subscribing_text{
-    color:#757575
+    color: var(--primary-text-color)
 }
 .section_title{
-    color: #212121;
+    color: var(--title-text-color)
 }
 
 .our_team {
