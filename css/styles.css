@@ -1,0 +1,77 @@
+/* efect shine link blue #2196F3 */
+/* general text color black #212121 */
+/* second color text gray  #757575 */
+/* wight color in text #FFFFFF */
+
+/* general color site background  #FFFFFF */
+/* second background color Gray #F5F4FA */
+/* dark color sections footer and midle place #2F303A */
+
+body {
+background-color: #fff;
+color: #757575;
+}
+ 
+.list {
+    list-style: none;
+}
+/* site nav */
+.logo_web {
+    color: #2196F3;
+}
+
+.logo_studio {
+    color: #000000;
+}
+
+.full_logo :focus{
+    color: #2196F3;
+}
+
+.site_nav .link {
+    color: #212121;
+}
+.site_nav .link:hover,
+.site_nav .link:focus {
+   color:#2196F3 ;
+}
+.auth_nav {
+    color: #757575;
+}
+.auth_nav .link:hover,
+.auth_nav .link:focus {
+    color: #2196F3;
+}
+
+/* main */
+
+.hero{
+    background-color: #2F303A;
+}
+/* .button :hover,
+.button :focus{
+color: #2196F3
+}
+.valvue_color_text_button{
+    color: #fff;
+} */
+.hero_title{
+    color: #fff;
+}
+
+.subscribing_text{
+    color:#757575
+}
+.section_title{
+    color: #212121;
+}
+
+.our_team {
+    background-color:#F5F4FA ;
+}
+
+/* footer */
+.footer{
+    background-color: #2F303A;
+}
+
