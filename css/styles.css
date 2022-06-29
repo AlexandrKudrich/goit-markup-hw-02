@@ -76,6 +76,7 @@ a {
 .site-nav .link:focus {
    color: var(--accent-color) ;
     cursor: default;
+ 
 }
 .auth-nav a{
     color: var(--primary-text-color);
@@ -91,6 +92,7 @@ a {
 .auth-nav .link:focus {
     color: var(--accent-color);
     cursor: default;
+       color: rgba(red, green, blue, alpha);
 }
 
 /* main */
@@ -220,8 +222,7 @@ a {
 
 .footer-link .link:hover,
 .footer-link .link:focus {
-    color: var(--accent-color);
-    cursor: default;
+    color: rgba(red, green, blue, alpha)
 }
 
 .footer-nav .footer-link {
