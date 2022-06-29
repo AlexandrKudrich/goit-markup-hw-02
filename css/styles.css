@@ -153,17 +153,6 @@ a {
     text-transform: uppercase;
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-
-
-
 .our-team {
     background-color:#F5F4FA ;
   
@@ -181,6 +170,14 @@ h2 {
       
         line-height: 1.18;
         letter-spacing: 0.03em;
+}
+
+.what-we-do h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* footer */
